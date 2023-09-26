@@ -1,5 +1,3 @@
-
-    #Python3
 import tkinter as tk
 
 from functools import partial
@@ -8,23 +6,21 @@ from tkinter import*
 import tkinter
 
 keyboard_showcase = tkinter.Tk()
-keyboard_showcase.title("Kayboard Layout")
+keyboard_showcase.title("Keyboard Layout")
 keyboard_showcase ['bg']='powder blue'
 keyboard_showcase.resizable (0,0)
 
-labell = Label (keyboard_showcase, text="Keyboard Layout", font =('arial', 30, 'bold'),
+labell = Label (keyboard_showcase, text="E", font =('arial', 30, 'bold'),
                 bg ='powder blue', fg="#000000") .grid(row = 0, columnspan = 40)
 entry = Text(keyboard_showcase, width=138, font =('arial', 10, 'bold')) .grid(row = 1, columnspan = 40)
 
 keyboard_layout = [
-    'q','w','e','r','t','y','u','i','o','p',
-    'a','s','d','f','g','h','j','k','l',
-    'z','x','c','v','b','n','m',
-    ' Space '
+    'q','w','e','r','t','y','u','i','o','p','{[',']}',
+    'a','s','d','f','g','h','j','k','l',':;',"@'",'#',
+    'z','x','c','v','b','n','m','<,','.>'
 ]
-varRow = 2
+varRow = 3
 varColumn = 0
-
 
 for button in keyboard_layout:
     command = lambda x= button: select(x)
