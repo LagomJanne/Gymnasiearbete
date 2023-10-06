@@ -27,7 +27,7 @@ pos_value = {
     frozenset([0, 1, 2, 3, 7, 8, 9]): 1.032,
     frozenset([4, 10]): 1.247,
     frozenset([5]): 1.605,
-    frozenset([11]): 0,  # need value
+    frozenset([11]): 2.236, 
     frozenset([12, 13, 14, 15, 18, 19, 20, 21]): 0,
     frozenset([16,17,22]): 1,
     frozenset([23]): 2,
