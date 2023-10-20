@@ -11,7 +11,7 @@ Content_All = content.lower()
 print(Counter(Content_All))
 
 
-#Värden för tangenter, 0, 1, 1.038, 1.118, 2.138, 1.247, 1.605, 1.803, 2.661, 2.015
+
 #stagger 1/4 upper, 1/2 lower
 
 #import random
@@ -22,7 +22,7 @@ target_chars = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '{[', ']}',
                 '|\\', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '<,', '.>','?']
 
 #random.shuffle(target_chars)
-
+#Effort för varje tangent baserat på postitionen i listan ovanför
 pos_value = {
     frozenset([0, 1, 2, 3, 7, 8, 9]): 1.032,
     frozenset([4, 10]): 1.247,
