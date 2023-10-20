@@ -1,10 +1,10 @@
 
 
-
 #Hämtar Counter
 from collections import Counter
 #Räknar alla tecken i en textfil
-with open('Test.txt', 'r') as file:
+#with open('datasettest.txt', 'r') as file:
+with open('dataset.txt', 'r') as file:
     content = file.read()
 Content_All = content.lower()
 
