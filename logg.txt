@@ -1,0 +1,35 @@
+
+2023-09-15
+
+Läste på mer om olika sorters layouts och vilka prioriteringar man haft när man skapat dem.
+
+2023-09-18 4h
+
+Testat gjort ett simpelt python program som räknar bokstäver i en string,
+kollat på wikipedia sidan för dvorak och liknande layouts för att se vad man vill att programmet ska räkna på,
+bestämt mig för att programmet ska räkna totala avståndet för att skriva text/kod
+och utifrån resultatet använda en genetisk algoritm som tar de bästa layoutsen som 
+blivit genererat random från första och blandar dem med varandra och ger en chans för mutation för vidare förbättring senare efter flera generationer
+
+https://en.wikipedia.org/wiki/Genetic_algorithm
+https://www.w3schools.com/python/default.asp
+https://en.wikipedia.org/wiki/Dvorak_keyboard_layout
+https://www.youtube.com/watch?v=4XZoVQOt-0I
+https://www.youtube.com/watch?v=EOaPb9wrgDY
+
+2023-09-22
+
+Testade flera olika sätt att räkna olika bokstäver i en string
+
+2023-09-23 2h
+
+Förbättrat programmet så att den kan läsa av ett textdokument istället för bara en string
+
+https://realpython.com/python-counter/
+
+2023-10-13 3h
+la till space bar i tkinter
+
+
+2023-11-24
+borjat kolla på en video som förklarar genetiska algoritmer
