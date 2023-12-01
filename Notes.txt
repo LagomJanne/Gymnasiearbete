@@ -1,0 +1,7 @@
+Heuristic initialization
+
+Random Initialization ga
+
+Wheel selection for parents
+
+Stochastic Universal Sampling (SUS)

@@ -7,7 +7,7 @@ import tkinter
 import select
 
 keyboard_showcase = tkinter.Tk()
-keyboard_showcase.title("Keyboard Layout")
+keyboard_showcase.title("Layout showcase")
 keyboard_showcase ['bg']='powder blue'
 keyboard_showcase.resizable (0,0)
 
